@@ -2,17 +2,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Pablo Ruiz Múzquiz - "Diacrítica"</title>
+    <title>Pablo Ruiz-Múzquiz - "Diacrítica"</title>
     
-    <link rel="stylesheet" href="{{STATIC_URL}}/css/style.css" type="text/css" media="handheld, all">
-    <link rel="shortcut icon" href="{{STATIC_URL}}/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Pablo Ruiz Múzquiz (personal website)">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}" type="text/css" media="handheld, all">
+    <link rel="shortcut icon" href="{% static '/favicon.ico' %}" type="image/x-icon">
+    <meta name="description" content="Pablo Ruiz-Múzquiz (personal website)">
     
-    <meta property="og:title" content="Pablo Ruiz Múzquiz (personal website)">
+    <meta property="og:title" content="Pablo Ruiz-Múzquiz (personal website)">
     <meta property="og:type" content="site">
     <meta property="og:site_name" content="elenya">
-    <meta property="og:description" content="Pablo Ruiz Muzquiz's personal website">
-    <meta property="og:image" content="{{STATIC_URL}}/img/avatardice.jpg">
+    <meta property="og:description" content="Pablo Ruiz-Muzquiz's personal website">
+    <meta property="og:image" content="{% static '/img/avatardice.jpg' %}">
 
 
     <script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script> 
@@ -46,25 +46,25 @@
             
             <div id="pteamdetail">
             <div class="box01 sameheight" data-sameheight="#pteamdetail .box02">
-            <img alt="" src="{{STATIC_URL}}/img/pruiz308x173_3.jpg">
+            <img alt="" src="{% static '/img/pruiz308x173_3.jpg' %}"">
         
-            <p>Living in Madrid, Spain</p>
-            <p class="p2">CEO and co-founder at <a class="nomove" href="http://kaleidos.net">http://kaleidos.net</a></p>
+            <p>Living in Madrid & London</p>
+            <p class="p2">CEO and co-founder of <a class="nomove" href="http://kaleidos.net">http://kaleidos.net</a> &  <a class="nomove" href="http://taiga.io">http://taiga.io</a></p>
             </div>
            <div class="box02">
            <div class="box03 sameheight" data-sameheight="#pteamdetail .box04">
-             <h1>Pablo Ruiz Múzquiz</h1>
+             <h1>Pablo Ruiz-Múzquiz</h1>
              <p class="p1">Diacrítica/@diacritica</p>
            </div>
            <div class="box04">
              <h3>I LIKE</h3>
              <div class="inner">
-                <p>Geekism, science, civil rights, free software, community practices, fantasy and sci-fi literature, good skepticism, RPGs, programming, photography, travelling, writing.</p>
+                <p>Geekism, science, civil rights, free software, agile practices, fantasy and sci-fi literature, good skepticism, RPGs, programming, photography, travelling, writing & trad archery.</p>
              </div>
            </div>
            <div class="box05">
              <p>
-            As CEO or BDFL at Kaleidos, my mission is broad and fun. I must be sure customers are delighted with our results, employees fully enjoy their work and our partners love what we are building. <font color="#c5d9c3">On a personal side, I'm really enjoying my mid-thirties with my geek wife, a bunch of great friends and some time to travel around the world. I actively support public understanding of science, civil rights and velociraptors :)</font>
+            I co-founded Kaleidos, a great hybrid between a technological partner for start-ups and an incubator for employees' ideas (Taiga being a great example). <font color="#c5d9c3">On a personal side, I'm really enjoying my mid-thirties with my geek wife, a bunch of great friends and some time to travel around the world while I shoot my longbow on a regular basis. I actively support public understanding of science, civil rights and velociraptors :)</font>
             </p>
            </div>
            </div>
@@ -72,66 +72,36 @@
            <div class="box06">
         
            <div class="box09">
-              
-           <div id="twtr-widget"></div>
-               <script type="text/javascript">
-               new TWTR.Widget({
-               version: 2,
-               type: 'profile',
-               rpp: 4,
-               interval: 30000,
-               width: 276,
-               height: 300,
-               id: 'twtr-widget',
-               theme: {
-                 shell: {
-                   background: '#2c2c36',
-                   color: '#ffffff'
-                 },
-                 tweets: {
-                   background: '#5e5f69',
-                   color: '#ffffff',
-                   links: '#8aaae2'
-                 }
-               },
-               features: {
-                 scrollbar: false,
-                 loop: false,
-                 live: false,
-                 hashtags: true,
-                 timestamp: true,
-                 avatars: false,
-                 behavior: 'all'
-               }
-              }).render().setUser('@diacritica').start();
-              </script>
-           </div>
+              <div id="twtr-widget"></div>
+<a class="twitter-timeline" width="276" height="413" href="https://twitter.com/diacritica" data-widget-id="329365701741658112">Tweets by @diacritica</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
                           
            <h3>Technical</h3>
            <ul class="box07">
              <li>
                <a title="GNU" href="http://kaleidos.net/weapons/gnu/">
-               <img alt="GNU" src="{{STATIC_URL}}/img/gnu318x260_2_1_110x90.png">                    
+               <img alt="GNU" src="{% static '/img/gnu318x260_2_1_110x90.png' %}">                    
                </a>
              </li>
              <li>
                <a title="Linux" href="http://kaleidos.net/weapons/linux/">
-               <img alt="Linux" src="{{STATIC_URL}}/img/linux318x260_1_110x90.png">                    
+               <img alt="Linux" src="{% static '/img/linux318x260_1_110x90.png' %}">                    
                </a>
              </li>
              <li>
                <a title="Python" href="http://kaleidos.net/weapons/python/">
-               <img alt="Python" src="{{STATIC_URL}}/img/python318x260_3_110x90.png">                    
+               <img alt="Python" src="{% static '/img/python318x260_3_110x90.png' %}">                    
                </a>
              </li>
              <li>
                <a title="Django" href="http://kaleidos.net/weapons/django/">
-               <img alt="Django" src="{{STATIC_URL}}/img/django308x260_3_110x90.png">                    
+               <img alt="Django" src="{% static '/img/django308x260_3_110x90.png' %}">                    
                </a>
              </li>
              <li>
                <a title="Django" href="http://kaleidos.net/weapons/django/">
-               <img alt="Django" src="{{STATIC_URL}}/img/Arch-Linux.png">                    
+               <img alt="Django" src="{% static '/img/Arch-Linux.png' %}">                    
                </a>
              </li>
            </ul>
@@ -139,27 +109,27 @@
            <ul class="box07">
              <li>
                <a title="Arduino" href="http://arduino.cc/">
-               <img alt="Arduino" src="{{STATIC_URL}}/img/arduino_logo.png">                    
+               <img alt="Arduino" src="{% static '/img/arduino_logo.png' %}">                    
                </a>
              </li>
              <li>
                <a title="Android" href="http://android.com/">
-               <img alt="Android" src="{{STATIC_URL}}/img/android.png">                    
+               <img alt="Android" src="{% static '/img/android.png' %}">                    
                </a>
              </li>
              <li>
-               <a title="Git" href="http://git-scm.com/">
-               <img alt="Git" src="{{STATIC_URL}}/img/gitlogo.png">                    
+               <a title="Taiga" href="http://taiga.io/">
+               <img alt="Git" src="{% static '/img/icon-taiga-color.png' %}">                    
                </a>
              </li>
              <li>
                <a title="PostgreSQL" href="http://postgresql.org/">
-               <img alt="PostgreSQL" src="{{STATIC_URL}}/img/postgresql.png">                    
+               <img alt="PostgreSQL" src="{% static '/img/postgresql.png' %}">                    
                </a>
              </li>
              <li>
                <a title="Raspberry PI" href="http://raspberrypi.org/">
-               <img alt="Raspberry PI" src="{{STATIC_URL}}/img/rpi.png">                    
+               <img alt="Raspberry PI" src="{% static '/img/rpi.png' %}">                    
                </a>
              </li>
            </ul>
@@ -171,29 +141,29 @@
                 <ul class="box07">
                 <li>    
                   <a title="Wikimedia (my contributions list)" href="http://commons.wikimedia.org/wiki/Special:Contributions/Diacritica">
-                  <img alt="Wikimedia (my contributions list)" src="{{STATIC_URL}}/img/wikimedia.png">                    
+                  <img alt="Wikimedia (my contributions list)" src="{% static '/img/wikimedia.png' %}">                    
                   </a>              
                 </li>
 
                 <li>                
                   <a title="Wikipedia (my contributions list)" href="http://en.wikipedia.org/wiki/Special:Contributions/Diacritica">
-                  <img alt="Wikipedia (my contributions list)" src="{{STATIC_URL}}/img/wikipedia.png">                    
+                  <img alt="Wikipedia (my contributions list)" src="{% static '/img/wikipedia.png' %}">                    
                   </a>                    
                                      
                 </li>
                 <li>                
                    <a title="Sociedad Tolkien Española" href="http://sociedadtolkien.org">
-                   <img alt="Sociedad Tolkien Española" src="{{STATIC_URL}}/img/ste.png">                    
+                   <img alt="Sociedad Tolkien Española" src="{% static '/img/ste.png' %}">                    
                    </a>                    
                 </li>
                 <li>                
                    <a title="ARP-SAPC" href="http://escepticos.es">
-                   <img alt="ARP-SAPC" src="{{STATIC_URL}}/img/arpsapc.png">                    
+                   <img alt="ARP-SAPC" src="{% static '/img/arpsapc.png' %}">                    
                    </a>                    
                 </li>
                 <li>                
-                   <a title="Codex de la Marca del Este" href="http://codexdelamarca.com">
-                   <img alt="Codex de la Marca del Este" src="{{STATIC_URL}}/img/codex.png">                    
+                   <a title="arandomtable.com" href="http://arandomtable.com">
+                   <img alt="arandomtable.com" src="{% static '/img/art.png' %}">                    
                    </a>                    
                 </li>
                 </ul>
@@ -249,12 +219,12 @@
             <div class="box11">
                 <h3>I contribute to these blogs</h3>
                 <ul class="blog">
+		 <li><a href="http://aljaba.net" class="nomove" target="_blank">Aljaba (an archer's diary, in Spanish)</a></li>
                 <li><a href="http://www.ghilbrae.com" class="nomove" target="_blank">Ghilbrae (my wife's blog, Spanish)</a></li>
-                <li><a href="http://www.lamarcadeleste.com" class="nomove" target="_blank">La Marca del Este (RPG, Spanish)</a></li>
                 <li><a href="http://www.kaleidos.net/blog" class="nomove" target="_blank">Kaleidos' Blog (Company, English/Spanish)</a></li>
+                 <li><a href="http://www.lamarcadeleste.com" class="nomove" target="_blank">La Marca del Este (RPG, Spanish)</a></li>
                 <li><a href="http://eraunatonteria.wordpress.com" class="nomove" target="_blank">Era una tontería (Technical tips, Spanish)</a></li>
                 <li><a href="http://diacritica.net" class="nomove" target="_blank">Diacrítica (Spanish, abandoned/still useful)</a></li>
-                <li><a href="http://12meses12modulos.blogspot.com.es/" class="nomove" target="_blank">12 meses 12 módulos (RPG, Spanish)</a></li>
                 </ul>
             </div>
             <div class="boxsn">
@@ -266,27 +236,27 @@
 
             <li>
             <a class="boxsn" href="http://twitter.com/@diacritica" target="_blank">
-            <img src="{{STATIC_URL}}/img/Twitter.png" style="width: 46px; ">
+            <img src="{% static '/img/Twitter.png' %}" style="width: 46px; ">
             </a>
             </li>
             <li>
             <a class="boxsn" href="http://github.com/diacritica" target="_blank">
-            <img src="{{STATIC_URL}}/img/Github.png" style="width: 46px; ">
+            <img src="{% static '/img/Github.png' %}" style="width: 46px; ">
             </a>
             </li>
             <li>
             <a class="boxsn" href="http://es.linkedin.com/in/pruizmuzquiz" target="_blank">
-            <img src="{{STATIC_URL}}/img/LinkedIn.png" style="width: 46px; ">
+            <img src="{% static '/img/LinkedIn.png' %}" style="width: 46px; ">
             </a>
             </li>
             <li>
             <a class="boxsn" href="http://flickr.com/photos/angelaypablo" target="_blank">
-            <img src="{{STATIC_URL}}/img/Flickr.png" style="width: 46px; ">
+            <img src="{% static '/img/Flickr.png' %}" style="width: 46px; ">
             </a>
             </li>
             <li>
             <a class="boxsn" href="https://plus.google.com/108829146568988186835" target="_blank">
-            <img src="{{STATIC_URL}}/img/Google.png" style="width: 46px; ">
+            <img src="{% static '/img/Google.png' %}" style="width: 46px; ">
             </a>
             </li>
             </ul>
@@ -296,10 +266,10 @@
                 <h3>Avatars I use</h3>
                 
                 <ul class="bokzuy"><li><a class="nomove" href="http://gravatar.com/diacritica" target="_blank">
-                <img src="{{STATIC_URL}}/img/avatar_dwho90x90.jpg" style="width: 60px; ">
-                <img src="{{STATIC_URL}}/img/pruiz_kaleidos90x90.jpg" style="width: 60px; ">
-                <img src="{{STATIC_URL}}/img/avatardice90x90.jpg" style="width: 60px; ">   
-                <img src="{{STATIC_URL}}/img/pruiz_elenya60px.jpg" style="width: 60px; ">
+                <img src="{% static '/img/avatar_archery.png' %}" style="width: 60px; ">
+                <img src="{% static '/img/pruiz_kaleidos90x90.jpg' %}" style="width: 60px; ">
+                <img src="{% static '/img/avatardice90x90.jpg' %}" style="width: 60px; ">   
+                <img src="{% static '/img/pruiz_elenya60px.jpg' %}" style="width: 60px; ">
 
                 </a></li>
                 </ul>
